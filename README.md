@@ -34,7 +34,7 @@ Hernandez Vazquez Miguel Adrian
 
 ```bash
 # Definicion de programa que se quiere compilar
-PROGRAMA := textoejemplo
+PROGRAMA := programaejemplo
 
 compilar: $(PROGRAMA)
         as -o $(PROGRAMA).o $(PROGRAMA).s
